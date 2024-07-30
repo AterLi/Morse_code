@@ -25,6 +25,9 @@ def morse_convert():
             code.append(morse_code_dict[letter])
     print(f"Morse code:\n{code}")
 
+    # for i in code:
+    #     print(i)
+
 
 while convert_on:
     morse_convert()
